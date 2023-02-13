@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  /* background-color: #b36b00; */
+  /* background-color: #7809ff; */
+  /* background-image: url(../assets/survey-form-background.jpg); */
+  background-image: linear-gradient(to right top, #1e1eff, #0037ff, #0049ff, #0057ff, #0564ff, #2066ff, #2d67ff, #3869ff, #4560ff, #5355ff, #6347ff, #7236ff);  display: flex;
+  justify-content: center;
+
+}
+.header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+  }
+  
+.description {
+    font-style: italic;
+    font-weight: 200;
+  }
+
+.container {
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    background: rgba(6, 6, 81, 0.158);
+    padding: 2.5rem;
+    border-radius: 0.25rem;
+  }
+
+.form-container {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+  
+.text-box {
+    width: 100%;
+    padding: 10px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+label {
+  display: flex;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+
+
+.optinal {
+  padding-left: 5px;
+  font-size: 0.65rem;
+}
+
+
+.form-group {
+  padding: 1.25rem;
+}
+
+.input-radio,
+.input-checkbox {
+  margin-right: 0.625rem;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 1rem;
+}
+
+.submit-button {
+  border: none;
+  font-size:1rem ;
+  width: 100%;
+  padding: 0.75rem;
+  background:#37af65;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
